@@ -2,7 +2,7 @@
 	import { count } from '../stores.js';
 
 	function reset() {
-		// TODO reset the count
+		count.update(n => n = 0);
 	}
 </script>
 

@@ -13,6 +13,8 @@
 
 <h1>The count is {countValue}</h1>
 
-<Incrementer/>
-<Decrementer/>
-<Resetter/>
+<div class="container">
+	<Incrementer/>
+	<Decrementer/>
+	<Resetter/>
+</div>
